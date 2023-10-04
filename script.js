@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 } catch (error) {
                     display.value = "Erro";
                 }
-            } else if (button.innerText === "C") {
+            } else if (button.innerText === "AC") {
                 display.value = "";
             } else {
                 display.value += button.innerText;
